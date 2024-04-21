@@ -4,7 +4,7 @@ function createListItem() {
   li.textContent = 'New Item';
   return li;
 }
-let list = document.getElementById('your-list-id'); // replace 'your-list-id' with the id of your list
+let list = document.getElementById('infi-list'); // replace 'your-list-id' with the id of your list
 
 for(let i = 0; i < 10; i++) {
   list.appendChild(createListItem());
